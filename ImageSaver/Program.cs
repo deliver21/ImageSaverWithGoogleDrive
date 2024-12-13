@@ -12,7 +12,7 @@ namespace ImageSaver
         static void Main(string[] args)
         {
             string credentialsPath = "credentials.json";
-            string folderId = "1WSWCHLxD_kjS6hS_K8NYsiDPlYreYbD0";
+            string folderId = "";// Your folder Id
             string[] filesToUpload = { "Image 25.jpg" };
 
             UploadFilesToGoogleDrive(credentialsPath, folderId, filesToUpload);
